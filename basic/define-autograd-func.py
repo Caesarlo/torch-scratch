@@ -55,4 +55,5 @@ for t in range(2000):
         d.grad = None
 
 
-logger.info(f'Result: y = {a.item()} + {b.item()} * P3({c.item()} + {d.item()} x)')
+logger.info(
+    f'Result: y = {a.item()} + {b.item()} * P3({c.item()} + {d.item()} x)')
