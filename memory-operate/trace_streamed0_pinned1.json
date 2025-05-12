@@ -1,0 +1,114 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#3", "pid": 19712, "tid": 33512,
+    "ts": 3513151634734.216, "dur": 3054.900,
+    "args": {
+      "External id": 513,"Record function id": 0, "Ev Idx": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::to", "pid": 19712, "tid": 33512,
+    "ts": 3513151634753.916, "dur": 47.400,
+    "args": {
+      "External id": 514,"Record function id": 0, "Sequence number": 0, "Ev Idx": 1, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_to_copy", "pid": 19712, "tid": 33512,
+    "ts": 3513151634759.616, "dur": 38.000,
+    "args": {
+      "External id": 515,"Record function id": 0, "Sequence number": 0, "Ev Idx": 2, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_strided", "pid": 19712, "tid": 33512,
+    "ts": 3513151634765.816, "dur": 4.800,
+    "args": {
+      "External id": 516,"Record function id": 0, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::copy_", "pid": 19712, "tid": 33512,
+    "ts": 3513151634779.216, "dur": 14.100,
+    "args": {
+      "External id": 517,"Record function id": 0, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mul", "pid": 19712, "tid": 33512,
+    "ts": 3513151634815.116, "dur": 16.600,
+    "args": {
+      "External id": 518,"Record function id": 0, "Sequence number": 0, "Ev Idx": 5, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mul", "pid": 19712, "tid": 33512,
+    "ts": 3513151634838.916, "dur": 6.400,
+    "args": {
+      "External id": 519,"Record function id": 0, "Sequence number": 0, "Ev Idx": 6, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#4", "pid": 19712, "tid": 33512,
+    "ts": 3513151637824.416, "dur": 14.300,
+    "args": {
+      "External id": 520,"Record function id": 0, "Ev Idx": 7
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3513151634580.500, "pid": 19712, "tid": 33512,
+    "args": {
+      "name": "thread 33512 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3513151634580.500, "pid": 19712, "tid": 33512,
+    "args": {
+      "sort_index": 33512
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3513151634580.500, "pid": 19712, "tid": 33512,
+    "args": {
+      "name": "thread 33512 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3513151634580.500, "pid": 19712, "tid": 33512,
+    "args": {
+      "sort_index": 33512
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 3513151634504.400, "dur": 3371.800,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 3513151634504.400,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 3513151634504.400
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 3513151637969.700
+  }
+  ],
+  "traceName": "trace_streamed0_pinned1.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1743521598000000000
+}
