@@ -21,7 +21,7 @@
 
 1. 克隆仓库到本地
 ```bash
-git clone https://github.com/你的用户名/torch-scratch.git
+git clone git@github.com:Caesarlo/torch-scratch.git
 cd torch-scratch
 ```
 
